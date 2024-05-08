@@ -28,7 +28,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system-dev-pedro-pagan'
+      config.base = '/design-system-dev-pedro-pagan/'
     }
     return config;
   },
